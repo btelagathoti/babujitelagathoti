@@ -1,0 +1,132 @@
+.about-container {
+    min-height: 100vh;
+    padding: 80px 20px;
+    background-color: #21201e;
+    color: white;
+}
+
+.about-title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 2.5rem;
+    position: relative;
+    color: #dbc79e;
+}
+
+.about-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #dbc79e, #cc9d3f);
+}
+
+.about-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+/* Profile Section Styles */
+.profile-section {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.profile-image-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background: linear-gradient(135deg, #dbc79e, #807662, #cc9d3f);
+}
+
+.about-profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #21201e;
+}
+
+.profile-name {
+    font-size: 1.8rem;
+    color: #dbc79e;
+    margin-top: 20px;
+}
+
+/* Info Section Styles */
+.info-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-block {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(219, 199, 158, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.info-block:hover {
+    transform: translateX(10px);
+    background: rgba(219, 199, 158, 0.15);
+}
+
+.info-icon {
+    flex: 0 0 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cc9d3f;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.info-content {
+    flex: 1;
+}
+
+.info-content h3 {
+    color: #dbc79e;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.info-title {
+    color: #cc9d3f;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.info-description {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-section {
+        margin-bottom: 40px;
+    }
+
+    .info-block:hover {
+        transform: translateY(5px);
+    }
+} 

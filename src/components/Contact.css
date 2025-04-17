@@ -1,0 +1,118 @@
+.contact-container {
+    min-height: 100vh;
+    background-color: #21201e;
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, #2a2826 0%, #21201e 100%);
+    z-index: 0;
+}
+
+.contact-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    width: 100%;
+    background: rgba(33, 32, 30, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 60px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(219, 199, 158, 0.2);
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #dbc79e;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    flex: 0 1 300px;
+    padding: 30px;
+    background: rgba(219, 199, 158, 0.05);
+    border-radius: 15px;
+    border: 1px solid rgba(219, 199, 158, 0.1);
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    background: rgba(219, 199, 158, 0.1);
+    border-color: #cc9d3f;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-item i {
+    font-size: 2.5rem;
+    color: #dbc79e;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover i {
+    transform: scale(1.1);
+}
+
+.contact-item h5 {
+    color: #dbc79e;
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.contact-item a:hover {
+    color: #cc9d3f;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        padding: 40px 20px;
+    }
+
+    .contact-info h2 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+
+    .contact-details {
+        gap: 30px;
+    }
+
+    .contact-item {
+        flex: 0 1 100%;
+        padding: 20px;
+    }
+} 

@@ -1,0 +1,107 @@
+.layout-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.layout-logo-section {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.layout-profile-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    padding: 4px;
+    background: linear-gradient(135deg, #dbc79e, #807662, #cc9d3f);
+}
+
+.layout-profile-image:hover {
+    transform: scale(2.0);
+    height: 200px;
+    width: 200px;
+}
+
+.layout-hamburger-section {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Hamburger Button Styles */
+.hamburger-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+    position: relative;
+}
+
+.hamburger-line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #dbc79e 0%, #807662 50%, #cc9d3f 100%);
+    transition: top 0.5s ease;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu.open {
+    top: 0;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(33, 32, 30, 0.2);
+    min-height: 100vh;
+}
+
+.nav-menu li {
+    text-align: center;
+    padding: 8px;
+}
+
+.nav-link {
+    color: white !important;
+    transition: all 0.3s ease;
+    display: inline-block !important;
+    padding: 8px 20px !important;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: rgba(153, 139, 110, 0.8) !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.layout-main {
+    min-height: 100vh;
+} 
