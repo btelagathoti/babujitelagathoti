@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import babujiPic from '../images/babujiPic.jpeg';
 import bgVideo from '../videos/homepagebgvideo.mov';
 
 

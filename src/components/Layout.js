@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import babujiPic from '../images/babujiPic.jpeg';
-import resumepdf from '../resume/Babujiresume.pdf'
+import resumepdf from '../resume/Babujiresume.pdf';
 import './Layout.css';
 
 const Layout = () => {

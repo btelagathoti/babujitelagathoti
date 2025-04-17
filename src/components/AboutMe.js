@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
 import babujiPic from '../images/babujiPic.jpeg';
-
 const AboutMe = () => {
     return (
         <div className="about-container">
@@ -15,8 +14,6 @@ const AboutMe = () => {
                     </div>
                     <h2 className="profile-name">Babuji Telagathoti</h2>
                 </div>
-
-                
                 <div className="info-section">
                     {/* Technology Section */}
                     <div className="info-block">

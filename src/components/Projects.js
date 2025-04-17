@@ -1,7 +1,8 @@
 import React from 'react';
-import './Projects.css';
 import Libraryimg from '../images/library.svg';
 import FilmClubimg from '../images/filmclub.jpg';
+import './Projects.css';
+
 const Projects = () => {
     const projects = [
         {
