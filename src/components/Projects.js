@@ -2,7 +2,6 @@ import React from 'react';
 import './Projects.css';
 import Libraryimg from '../images/library.svg';
 import FilmClubimg from '../images/filmclub.jpg';
-import resumePdf from '../resume/Babujiresume.pdf';
 const Projects = () => {
     const projects = [
         {
