@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import babujiPic from '../images/babujiPic.jpeg';
+import babujiPic from '../images/BAbujiphoto.jpeg';
 const AboutMe = () => {
     return (
         <div className="about-container">
@@ -22,8 +22,8 @@ const AboutMe = () => {
                         </div>
                         <div className="info-content">
                             <h3>Software Developer</h3>
-                            <p className="info-title">Web Technologies like HTML, PHP, JavaScript, TypeScript, Bootstrap, Angular, React,ASP.NET, Rajor view's  CSS, XML, XSL, Node JS</p>
-                            <p className="info-description">Passionate about creating web applications using modern frameworks including ASP.NET4/5, RecatJs, AngularJs</p>
+                            <p className="info-title"> Over 4+ Years of experience in Web Technologies like HTML, JavaScript,TypeScript, .NET(ASP.NET,C#,MVC), Bootstrap, Angular, React, Razor view's  CSS, XML, XSL, Node JS</p>
+                            <p className="info-description">Passionate about creating web applications using modern frameworks including ASP.NET4/5/7/8, RecatJs, AngularJs</p>
                         </div>
                     </div>
 
@@ -47,7 +47,8 @@ const AboutMe = () => {
                         <div className="info-content">
                             <h3>Education</h3>
                             <p className="info-title">Information Technology</p>
-                            <p className="info-description">Master's at saint Francis college with gpa 3.5</p>
+                            <p className="info-description">Master's at saint Francis college with gpa 3.5 </p>
+                            <p className="info-description">Brooklyn, Newyork, USA</p>
                             <p>Jan 2023 to Dec 2024</p>
                         </div>
                     </div>

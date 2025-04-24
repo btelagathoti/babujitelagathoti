@@ -4,7 +4,7 @@ import './Experience.css';
 const Experience = () => {
     const experiences = [
         {
-            period: "Aug 2024 - Current",
+            period: "Aug 2023 - Current",
             role: ".NET Developer ",
             company: "UF Health, Jacksonville, FL,USA",
             description: "As a .NET Developer at UF Health, I developed scalable web applications using C#, ASP.NET, MVC, and AWS, creating RESTful APIs, optimizing performance by 25%, and enhancing front-end responsiveness by 30% with Razor, jQuery, HTML5, and CSS."

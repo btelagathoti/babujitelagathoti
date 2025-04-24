@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import babujiPic from '../images/babujiPic.jpeg';
-import resumepdf from '../resume/Babujiresume.pdf';
 import './Layout.css';
 
 const Layout = () => {
@@ -60,7 +59,7 @@ const Layout = () => {
                         <li className="nav-item"><Link to="/about" className="nav-link" onClick={toggleMenu}>About me</Link></li>
                         <li className="nav-item"><Link to="/experience" className="nav-link" onClick={toggleMenu}>Experience</Link></li>
                         <li className="nav-item"><Link to="/skills" className="nav-link" onClick={toggleMenu}>Skills</Link></li>
-                        <li className="nav-item"><a className="nav-link" href={resumepdf} target="_blank" rel="noopener noreferrer">Resume</a></li>
+                        <li className="nav-item"><a className="nav-link" href="/resume.html" target="_blank" rel="noopener noreferrer">Resume</a></li>
                         <li className="nav-item"><Link to="/projects" className="nav-link" onClick={toggleMenu}>Personal Projects</Link></li>
                         <li className="nav-item"><Link to="/contact" className="nav-link" onClick={toggleMenu}>Contact Me</Link></li>
                     </ul>
