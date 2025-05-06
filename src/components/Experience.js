@@ -5,9 +5,9 @@ const Experience = () => {
     const experiences = [
         {
             period: "Aug 2023 - Current",
-            role: ".NET Developer ",
+            role: "Programmer Analyst ",
             company: "UF Health, Jacksonville, FL,USA",
-            description: "As a .NET Developer at UF Health, I developed scalable web applications using C#, ASP.NET, MVC, and AWS, creating RESTful APIs, optimizing performance by 25%, and enhancing front-end responsiveness by 30% with Razor, jQuery, HTML5, and CSS."
+            description: "At UF Health, I developed full-stack applications using React and ASP.NET Core, improved system performance, and integrated AWS services like Lambda and SQS. I contributed to modernizing legacy systems, implemented CI/CD pipelines, and collaborated in Agile teams to deliver scalable, secure, and user-friendly healthcare software solutions"
         },
         {
             period: "Jan 2023 - Dec 2024",
@@ -19,7 +19,7 @@ const Experience = () => {
             period: "Aug 2020 - Dec 2022",
             role: "Software Developer",
             company: "Cognizant | India",
-            description: "Software Developer at Cognizant, I built dynamic web apps using ASP.NET, AngularJS, C#, and SQL Server, implementing MVC, WCF, and responsive UI with Bootstrap, jQuery, and Kendo UI, enhancing system efficiency and user experience through Agile methodologies."
+            description: "At Cognizant, I developed full-stack web applications using ReactJS, .NET Core, and MongoDB. I refactored legacy systems, implemented RESTful APIs, ensured responsive UI/UX, and followed Agile and TDD practices. I also integrated third-party services and contributed to CI/CD pipelines, delivering scalable and maintainable enterprise software solutions.."
         }
         
         
@@ -27,7 +27,6 @@ const Experience = () => {
 
     return (
         <div className="experience-container">
-            {/* Background Wave Elements */}
             <div className="wave-1"></div>
             <div className="wave-2"></div>
             

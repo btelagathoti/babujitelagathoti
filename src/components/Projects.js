@@ -16,7 +16,7 @@ const Projects = () => {
                     "Book catalog management",
                     "Admin can add,edit,delete books",
                 ],
-                projectLink: "https://github.com/yourusername/library-project" 
+                projectLink: "https://github.com/btelagathoti/LMS" 
             }
         },
         {
